@@ -1,0 +1,667 @@
+* {
+
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.nav-mid, .menu-buttons {
+
+    display: none;
+
+}
+
+
+.header {
+
+    background-color: black;
+    color: white;
+    padding: 15px;
+    
+
+}
+
+.header p {
+
+    text-align: center;
+    color: white;
+    margin: 0 30px;
+    
+    
+}
+
+.underline {
+
+    text-decoration: underline;
+
+}
+
+.main {
+
+    background-color: rgb(236, 236, 236);
+    padding: 0 20px 40px 20px;
+
+}
+
+.nav {
+
+    display: flex;  
+    justify-content: space-between;
+    padding: 30px 0;
+    width:100%;
+    
+}
+
+.img {
+
+    height: 480px;
+    overflow: hidden;
+    border-bottom-right-radius:10px;  
+    border-bottom-left-radius:10px;  
+    margin-bottom: 14px;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+ul li {
+
+    list-style: none;
+    line-height: 1.6;
+
+}
+
+p {
+
+    line-height: 1.6;
+    color: rgb(59, 58, 58);
+
+}
+
+.main h1 {
+
+    padding: 16px 0;
+    font-size: 35px;
+
+}
+
+.main p {
+
+    padding: 0 0 14px 0;
+
+}
+
+ul li svg {
+
+    margin-right: 14px;
+
+}
+
+.form {
+
+    display: flex;
+    padding: 20px 0 0 0;
+
+}
+
+
+input {
+
+    padding: 15px;
+    border-radius: 6px;
+    border: 2px solid lightgray;
+    color: gray;
+    font-size: 16px;
+   
+}
+
+.btn {
+
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    border-style: none;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.btn:hover {
+
+    background-color: rgb(236, 236, 236);
+    color: black;
+    transition-duration: 1s;
+
+}
+
+.logos {
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    
+
+}
+
+.logos img {
+
+    width: 80px;
+    margin-right: 20px;
+   
+}
+
+.phone {
+
+    background-color: rgb(236, 236, 236);
+    padding: 45px 40px 0px 40px;
+    margin: 0 40px;
+    border-radius: 12px;
+    
+}
+
+
+.phone h1 {
+
+    padding-right: 100px;
+    font-size: 35px;
+
+}
+
+.phone p {
+
+    padding: 10px 0;
+
+}
+
+.phone {
+
+    height: 100%;
+    padding-top: 20px;
+
+}
+
+.arrow {
+
+    text-decoration: underline;
+    margin-bottom: 20px;
+
+}
+
+.arrow:hover {
+
+    color: darkgrey;
+    transition-duration: 1s;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.last {
+
+    background-color: white;
+    padding: 45px 0 0 40px;
+
+}
+
+.last h1 {
+
+    padding: 0 0 10px 0;
+    margin-right: 140px;
+    font-size: 35px;
+}
+
+.last p {
+
+    padding-top: 10px;
+    margin-right: 40px;
+
+}
+
+.video {
+
+    width: 400px;
+
+}
+
+
+.footer-container {
+
+    background-color: black;
+    padding-bottom: 20px;
+
+}
+
+.footer-heading {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.outlook h3 {
+
+    padding-bottom: 10px;
+
+}
+
+.outlook p {
+
+   color: rgb(110, 106, 106);
+   
+}
+
+.footer-heading h2 {
+
+    margin-bottom: 0.5rem;
+    
+}
+
+.footer-heading a {
+
+    color: white;
+    text-decoration: none;
+    padding-top: 6px;
+    color:rgb(110, 106, 106);
+    
+
+
+}
+
+.footer-heading a:hover {
+
+    color:white;
+    transition: 0.3s ease-out;
+
+}
+
+
+.footer {
+
+    color: white;
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap:30px;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.outlook {
+
+    background-color: black;
+    color: white;
+    padding: 40px 0px 0px 0px;
+    grid-column: 1/ span 2;
+    grid-row:0/4;
+
+}
+
+
+.company {
+
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+}
+
+.oppurtunity {
+
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.sitemap {
+
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.resources {
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+
+
+@media only screen and (min-width:1442px) {
+
+    
+    .main {
+
+        padding: 0 260px 260px 260px;  
+         
+
+    }
+
+    .main h1 {
+
+        font-size: 3.5rem;
+
+    }
+    
+    .nav {
+
+        justify-content: space-between; 
+        margin-bottom: 50px;
+        
+    }
+    
+    .nav-mid {
+
+        display: inline-block;
+        padding-top:  16px;
+        font-size: 20px;
+        position: relative;
+        left: 50px;
+        
+    }
+
+    .nav-mid :hover {
+
+        color: darkgrey;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+
+    
+    .nav h3 {
+
+        padding-top: 16px;
+        align-self: flex-start;
+
+    }
+
+    .nav-mid p {
+
+        padding-right: 24px;
+        float: right;
+    }
+
+
+    .hamburger {
+
+        display: none;
+    }
+
+    .menu-buttons {
+
+        display: block;
+
+    }
+
+    .login {
+
+        background-color: rgb(236, 236, 236);
+        border:  none;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .login:hover {
+
+        color: darkgrey
+
+    }
+
+    .get-started {
+
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: none;
+        width: 150px;
+        transition-duration: 1s;
+        padding: 20px;
+        border-radius: 6px;
+        
+    }
+
+    .get-started:hover {
+
+        background-color: rgb(236, 236, 236);
+        color: black;
+        transition-duration: 1s;
+
+    }
+
+    .btn {
+
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        transition-duration: 1s;
+        border-radius: 6px;
+        width: 150px;
+        font-weight: 400;
+        padding: 15px 20px;
+        
+    }
+
+    .btn:hover {
+
+        background-color: rgb(236, 236, 236);
+        color: black;
+        transition-duration: 1s;
+
+    }
+
+    .form input{
+
+        padding: 17px;
+        font-size: 20px;
+
+    }
+
+    .form {
+
+        width:  50%;
+        height: 80px;
+
+    }
+
+    .img {
+
+        width: 500px;
+        height:  80vh;
+        float:right;
+        overflow: hidden;
+        border-bottom-right-radius:10px;  
+        border-bottom-left-radius:10px;  
+        margin-bottom: 14px;
+    
+    }
+
+    #left-side-p {
+
+        width: 760px;
+        font-size: 1.1rem;
+        padding-bottom: 30px;
+
+    }
+
+    .arrow:hover {
+
+        color: darkgrey;
+        transition-duration: 1s;
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    ul li {
+
+        font-size:1.3rem;
+        line-height:2.0;
+    }
+
+    .logos {
+
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: white;
+        
+    
+    }
+    
+    .logos img {
+    
+        width: 150px;
+        
+    }
+
+    .phone {
+
+        background-color: rgb(236, 236, 236);
+        padding: 0px 40px 0px 40px;
+        margin: 0 260px;
+        border-radius: 12px;
+        height:  400px;
+        overflow: hidden;
+    
+    }
+
+    .phone p {
+
+        width: 520px;
+
+    }
+
+    .phone img {
+
+        position: relative;
+        left: 700px;
+        bottom: 340px;
+        width: 500px;
+        height: 500px;
+        
+    
+    }
+
+    .phone h1 {
+
+        font-size: 2.5em;
+        width: 600px;
+        padding-top: 40px;
+
+    }
+
+    .last {
+
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 100%;
+        padding: 0 260px 0 260px;
+    }
+
+
+    .grouped {
+
+        width: 50%;
+        padding: 140px 0 0 60px;
+
+    }
+    .last h1 {
+
+       font-size: 2em;
+
+    }
+
+    .last p {
+
+        width: 500px;
+
+    }
+
+    .video {
+
+        width: 50%;
+        padding-top: 80px;
+    
+    }
+
+    .footer {
+
+        color: white;
+        display: inline-grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-row-gap:0px;
+        grid-column-gap: 0px;
+        padding-left: 120px;
+        padding-bottom: 20px;
+        width: 100%;
+    
+    }
+    
+    .footer-heading {
+
+        padding:  40px 0 0 0;
+
+    }
+
+    .footer-heading h2 {
+
+        font-size: 26px;
+    }
+    .outlook {
+
+        background-color: black;
+        color: white;
+        padding: 40px 0px 0px 0px;
+        grid-column: 1/ span 2;
+        grid-row:1/2;
+    
+    }
+
+    
+    .company {
+    
+        grid-column: 6/7;
+        grid-row:1/2;
+        
+    }
+    
+    .oppurtunity {
+    
+        grid-column: 7/8;
+        grid-row:1/2;
+    }
+    
+    .sitemap {
+    
+        grid-column: 4/5;
+        grid-row:1/2;
+    }
+    
+    .resources {
+    
+        grid-column: 5/6;
+        grid-row:1/2;
+
+    }
+
+    
+}
+
+
+
