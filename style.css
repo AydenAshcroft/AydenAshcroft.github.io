@@ -24,7 +24,6 @@ body {
     background-color: black;
     color: white;
     padding: 15px;
-    
 
 }
 
@@ -131,13 +130,13 @@ input {
     background-color: black;
     color: white;
     margin-left: 15px;
-    margin-right: 10px;
-    padding: 15px;
+    margin-right: 0px;
+    padding: 8px;
     border-radius: 6px;
     border-style: none;
     width: 100%;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
 
 }
 
@@ -341,7 +340,7 @@ input {
 
 
 
-@media only screen and (min-width:1442px) {
+@media only screen and (min-width:900px) {
 
     
     .main {
